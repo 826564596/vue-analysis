@@ -6,7 +6,14 @@ import store from "./store";
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: (h) => h(App),
 }).$mount("#app");
+
+// var app = new Vue({
+//     el: "#app",
+//     data: {
+//         message: "hello world",
+//     },
+// });
